@@ -10,7 +10,7 @@ function App() {
         <div className="fixed w-full h-screen -z-10">
             <img src={BG} alt="bg" className="object-cover w-full h-full" />
         </div>
-        <div className="flex flex-col gap-16 p-10 mx-auto xl:flex-row max-w-8xl">
+        <div className="flex flex-col gap-16 p-5 mx-auto sm:p-10 xl:flex-row max-w-8xl">
             <SideBar />
             <BodyContent>
                 <Home />
