@@ -32,7 +32,7 @@ function SideBar () {
                             <img src={profile} alt="profile-img" className="h-24 rounded-full sm:h-32" />
                             <div className="flex flex-col justify-center py-5">
                                 <p className="text-black text-opacity-75">Patrick Punzalan</p>
-                                <p className="text-gray-500 text-opacity-75">FullStack Developer</p>
+                                <p className="text-gray-500 text-opacity-75">Software Engineer</p>
                                 <div className="flex gap-2 mt-1">
                                     <a href="https://github.com/punzalan223" target="_blank">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve" viewBox="0 0 16 16" id="github" className="h-6">
