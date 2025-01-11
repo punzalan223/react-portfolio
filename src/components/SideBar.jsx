@@ -28,8 +28,8 @@ function SideBar () {
                         </div>
                     </RetroNav>
                     <div className="p-5 bg-white/95">
-                        <div className="flex gap-12">
-                            <img src={profile} alt="profile-img" className="h-32 rounded-full" />
+                        <div className="flex items-center gap-4 sm:gap-12">
+                            <img src={profile} alt="profile-img" className="h-24 rounded-full sm:h-32" />
                             <div className="flex flex-col justify-center py-5">
                                 <p className="text-black text-opacity-75">Patrick Punzalan</p>
                                 <p className="text-gray-500 text-opacity-75">FullStack Developer</p>
