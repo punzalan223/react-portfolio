@@ -25,7 +25,7 @@ export function Home() {
                     <p className="text-2xl text-center">Experiences</p>
                     <ul aria-label="Alternative changelog feed" role="feed" className="relative flex flex-col gap-12 py-12 text-sm px-6 lg:px-0 before:absolute before:top-0 before:left-6 lg:before:left-[8.5rem] before:h-full before:border before:-translate-x-1/2 before:border-slate-200 before:border-dashed after:absolute after:top-6 after:left-6 lg:after:left-[8.5rem] after:bottom-6 after:border after:-translate-x-1/2 after:border-slate-200">
                         <li role="article" className="relative pl-6 lg:pl-0 lg:flex lg:gap-12 before:absolute before:z-10 before:left-0 lg:before-left-1 before:top-2 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-emerald-500 before:ring-2 before:ring-white">
-                            <h4 className="hidden text-base font-medium leading-7 text-gray-700 text-opacity-75 lg:w-28 lg:text-right lg:block">March 2021</h4>
+                            <h4 className="hidden text-base font-medium leading-7 text-gray-700 text-opacity-75 lg:w-28 lg:text-right lg:block">2021-03-24</h4>
                             <div className="flex flex-col flex-1 gap-2">
                                 <h3 className="text-base font-medium leading-7 text-black opacity-75">Database Admin Assistant Intern <span className="font-normal text-gray-700 text-opacity-75 lg:hidden"> - 2023-01-21</span></h3>
                                 <p className="max-w-2xl text-gray-700 text-opacity-75">Database management and handling company’s data so it can be accessed, updated and managed</p>
