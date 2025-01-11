@@ -1,6 +1,6 @@
 import CarbonSense from '../img/projects/carbon_sense.jpg'
-import Devp from '../img/projects/Devp system.jpg'
-import Egc from '../img/projects/EGC system.jpg'
+import Devp from '../img/projects/Devp_system.jpg'
+import Egc from '../img/projects/EGC_system.jpg'
 import FaceRecognition from '../img/projects/face_recognition.jpg'
 import FilipinoClassifieds from '../img/projects/filipino-classifieds.png'
 import Gis from '../img/projects/gis.png'
