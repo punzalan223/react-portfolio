@@ -28,7 +28,7 @@ function SideBar () {
                         </div>
                     </RetroNav>
                     <div className="p-5 bg-white/95">
-                        <div className="flex items-center gap-4 sm:gap-12">
+                        <div className="flex items-center gap-4 sm:gap-8">
                             <img src={profile} alt="profile-img" className="h-24 rounded-full sm:h-32" />
                             <div className="flex flex-col justify-center py-5">
                                 <p className="text-black text-opacity-75">Patrick Punzalan</p>
