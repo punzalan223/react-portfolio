@@ -65,17 +65,17 @@ function SideBar () {
                                 </div>
                             </div>
                         </div>
-                        <div className="grid grid-cols-3 pt-10 border-t-4 border-b-4 pb-10 border-[#3C4B5A] mt-5">
-                            <div className="flex flex-col items-center gap-2">
-                                <p className="text-gray-500 text-opacity-75">PROJECT</p>
+                        <div className="grid grid-cols-3 gap-2 pt-10 border-t-4 border-b-4 pb-10 border-[#3C4B5A] mt-5">
+                            <div className="flex flex-col items-center gap-2 border-r-2 sm:border-0">
+                                <p className="text-sm text-gray-500 text-opacity-75 sm:text-base">PROJECT</p>
                                 <p className="text-4xl text-black opacity-75">12</p>
                             </div>
-                            <div className="flex flex-col items-center gap-2 border-l-2 border-r-2">
-                                <p className="text-gray-500 text-opacity-75">COMPLETED</p>
+                            <div className="flex flex-col items-center gap-2 sm:border-l-2 sm:border-r-2">
+                                <p className="text-sm text-gray-500 text-opacity-75 sm:text-base">COMPLETED</p>
                                 <p className="text-4xl text-black opacity-75">9</p>
                             </div>
-                            <div className="flex flex-col items-center gap-2">
-                                <p className="text-gray-500 text-opacity-75">PENDING</p>
+                            <div className="flex flex-col items-center gap-2 border-l-2 sm:border-0">
+                                <p className="text-sm text-gray-500 text-opacity-75 sm:text-base">PENDING</p>
                                 <p className="text-4xl text-black opacity-75">3</p>
                             </div>
                         </div>

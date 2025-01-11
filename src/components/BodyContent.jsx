@@ -2,7 +2,7 @@ import RetroNav from "./RetroNav";
 
 function BodyContent({children}) {
     return (
-        <div className="flex flex-col flex-1 rounded-3xl border-4 border-[#252E37] shadow-[8px_8px_0px_0px_rgba(60,75,90)] overflow-hidden sm:h-[90vh] sticky top-10">
+        <div className="flex flex-col flex-1 rounded-3xl border-4 border-[#252E37] shadow-[8px_8px_0px_0px_rgba(60,75,90)] overflow-hidden sm:h-[90vh] sticky sm:top-10">
             <RetroNav background='bg-[#B5D9AC]'>
                 <iframe 
                     src="https://giphy.com/embed/bjE9JbNSckM0w" 
