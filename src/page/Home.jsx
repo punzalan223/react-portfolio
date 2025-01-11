@@ -46,7 +46,7 @@ export function Home() {
                         <li role="article" className="relative pl-6 lg:pl-0 lg:flex lg:gap-12 before:absolute before:z-10 before:left-0 lg:before-left-1 before:top-2 before:h-2 before:w-2 before:-translate-x-1/2 before:rounded-full before:bg-emerald-500 before:ring-2 before:ring-white">
                             <h4 className="hidden text-base font-medium leading-7 text-gray-500 text-opacity-75 lg:w-28 lg:text-right lg:block">2023-01-18</h4>
                             <div className="flex flex-col flex-1 gap-2">
-                                <h3 className="text-base font-medium leading-7 text-black opacity-75">Full Stack Developer <span className="font-normal text-gray-500 text-opacity-75 lg:hidden"> - 2025-01-11</span></h3>
+                                <h3 className="text-base font-medium leading-7 text-black opacity-75">Full Stack Developer <span className="font-normal text-gray-500 text-opacity-75 lg:hidden"> - 2024-05-24</span></h3>
                                 <p className="max-w-2xl text-gray-500 text-opacity-75">Working on building robust, scalable web applications using Laravel, Livewire, Alpine.js, and Tailwind CSS. Focused on providing both frontend and backend solutions to create seamless user experiences while optimizing system performance and functionality.</p>
                                 <ul className="pl-5 text-gray-500 text-opacity-75 list-disc opacity-75 marker:text-black">
                                     <li>Designed and developed dynamic features using Laravel, ensuring high performance and scalability.</li>
