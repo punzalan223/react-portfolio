@@ -72,11 +72,11 @@ function SideBar () {
                             </div>
                             <div className="flex flex-col items-center gap-2 sm:border-l-2 sm:border-r-2">
                                 <p className="text-sm text-gray-500 text-opacity-75 sm:text-base">COMPLETED</p>
-                                <p className="text-4xl text-black opacity-75">9</p>
+                                <p className="text-4xl text-black opacity-75">12</p>
                             </div>
                             <div className="flex flex-col items-center gap-2 border-l-2 sm:border-0">
                                 <p className="text-sm text-gray-500 text-opacity-75 sm:text-base">PENDING</p>
-                                <p className="text-4xl text-black opacity-75">3</p>
+                                <p className="text-4xl text-black opacity-75">0</p>
                             </div>
                         </div>
                         <div className="my-5">

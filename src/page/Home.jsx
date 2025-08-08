@@ -130,7 +130,7 @@ export function Home() {
                                         A classifieds platform for Filipinos to connect, buy, sell, and explore job.
                                     </p>
                                     <p className="text-sm text-left text-gray-700 opacity-75">
-                                        Status: <span className="text-orange-700 opacity-75">Pending</span>
+                                        Status: <span className="text-green-700 opacity-75">Completed</span>
                                     </p>
                                 </div>
                             </div>
@@ -214,7 +214,7 @@ export function Home() {
                                         A platform offering online courses and resources focused on marketing campaigns
                                     </p>
                                     <p className="text-sm text-left text-gray-700 opacity-75">
-                                        Status: <span className="text-orange-700 opacity-75">Pending</span>
+                                        Status: <span className="text-green-700 opacity-75">Completed</span>
                                     </p>
                                 </div>
                             </div>
@@ -228,7 +228,7 @@ export function Home() {
                                         A platform for publishing and disseminating legislative content.
                                     </p>
                                     <p className="text-sm text-left text-gray-700 opacity-75">
-                                        Status: <span className="text-orange-700 opacity-75">Pending</span>
+                                        Status: <span className="text-green-700 opacity-75">Completed</span>
                                     </p>
                                 </div>
                             </div>
