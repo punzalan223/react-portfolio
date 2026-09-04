@@ -92,21 +92,21 @@ export function FleetlyfCard({ className = '' }) {
         alt=""
         fill
         sizes="(min-width: 1024px) 64rem, (min-width: 640px) 42rem, 100vw"
-        className="object-cover object-center transition duration-700 ease-out group-hover:scale-105"
+        className="object-cover object-[65%_center] transition duration-700 ease-out group-hover:scale-105 sm:object-center"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/90 to-zinc-950/35" />
       <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/70 via-transparent to-zinc-950/30" />
-      <a href={profile.fleetlyfUrl} target="_blank" rel="noreferrer" className="absolute top-5 right-5 z-10 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/15 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950 sm:top-6 sm:right-6">
-        <ExternalLinkIcon className="mr-1.5 h-3.5 w-3.5" />
-        Visit Fleetlyf
-      </a>
       <div className="relative px-9 py-9 sm:px-11 sm:py-10 lg:px-12 lg:py-11">
-        <div className="max-w-2xl pt-12 sm:pt-0">
+        <div className="max-w-2xl">
           <h2>
             <FleetlyfLogo />
           </h2>
           <p className="mt-4 text-lg font-semibold leading-7 text-zinc-100">The Complete Operating Record for Every Vehicle</p>
           <p className="mt-3 max-w-2xl text-sm leading-6 text-zinc-300 sm:text-base sm:leading-7">Fleetlyf keeps maintenance, documents, fuel, mileage, issues, trips, client balances, invoices, and decisions connected to the right vehicle. No tracking hardware required.</p>
+          <a href={profile.fleetlyfUrl} target="_blank" rel="noreferrer" className="relative z-10 mt-5 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/15 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950 sm:absolute sm:top-6 sm:right-6 sm:mt-0">
+            <ExternalLinkIcon className="mr-1.5 h-3.5 w-3.5" />
+            Visit Fleetlyf
+          </a>
         </div>
       </div>
     </section>

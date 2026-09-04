@@ -30,7 +30,7 @@ export const profile = {
   siteName: 'Patwicku',
   name: 'Patrick Lester M. Punzalan',
   shortName: 'Patrick Punzalan',
-  headlineRole: 'Full Stack Software Engineer',
+  headlineRole: 'Full Stack Engineer',
   role: 'Senior Full Stack Developer',
   education: 'BS Computer Engineering',
   school: 'Technological Institute of the Philippines (TIP) - 2022',

@@ -226,7 +226,7 @@ export function Header() {
     <>
       <header
         className={clsx(
-          'pointer-events-none relative z-40 flex flex-none flex-col',
+          'pointer-events-none relative z-[60] flex flex-none flex-col',
           isHomePage ? 'h-40' : 'h-16',
         )}
       >

@@ -168,8 +168,22 @@ export default function Home() {
     <>
       <Container className="mt-9">
         <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">{profile.headlineRole}</h1>
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">I’m {profile.name}. I build and maintain web applications, data systems, and LLM-powered workflow tools across Laravel, Vue.js/React, Fastify, Node.js, MySQL, and Python. My current role is Information Technology Officer II (Senior Full Stack Developer) at DSWD Government.</p>
+          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+            Hi, I’m {profile.shortName},
+            <span className="block">a {profile.headlineRole}.</span>
+          </h1>
+          <p className="mt-6 text-base leading-7 text-zinc-600 dark:text-zinc-400">
+            I build and maintain web applications, data systems, and LLM-powered workflow tools. I also built{' '}
+            <a
+              href={profile.fleetlyfUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="font-semibold text-zinc-900 underline decoration-zinc-400 underline-offset-4 transition hover:decoration-zinc-700 dark:text-zinc-100 dark:decoration-zinc-600 dark:hover:decoration-zinc-300"
+            >
+              Fleetlyf
+            </a>
+            , a fleet management platform that keeps vehicle operations and records connected. My current role is Information Technology Officer II (Senior Full Stack Developer) at DSWD Government.
+          </p>
           <p className="mt-4 text-base text-zinc-600 dark:text-zinc-400">{careerObjective}</p>
           <div className="flex gap-6 mt-6">
             <SocialLink href={profile.githubUrl} aria-label="Follow on GitHub" icon={GitHubIcon} />

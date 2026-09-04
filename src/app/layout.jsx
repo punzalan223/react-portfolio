@@ -8,7 +8,7 @@ export const metadata = {
   title: {
     template: `%s - ${profile.siteName}`,
     default:
-      `${profile.siteName} - Full Stack Software Engineer`,
+      `${profile.siteName} - Full Stack Engineer`,
   },
   description:
     'Portfolio of Patrick Lester M. Punzalan, a senior full-stack developer building web applications, data systems, and LLM-powered workflow tools.',
