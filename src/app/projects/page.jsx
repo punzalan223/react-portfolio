@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { FleetlyfCard } from '@/components/FleetlyfCard'
+import { NotelyfCard } from '@/components/NotelyfCard'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import { projects } from '@/lib/portfolio'
 
@@ -18,7 +19,8 @@ export default function Projects() {
       title="Projects I’ve built across products, data, and operations."
       intro="Much of my work has been built for companies or as private internal systems, so it cannot all be shared publicly. Here are a few selected examples from the broader body of projects I’ve built and contributed to over the years."
     >
-      <FleetlyfCard className="mb-16" />
+      <FleetlyfCard className="mb-6" />
+      <NotelyfCard className="mb-16" />
       <ul role="list" className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
           <Card as="li" key={project.name}>
