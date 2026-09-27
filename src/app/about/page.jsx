@@ -26,7 +26,7 @@ function SocialLink({ className, href, children, icon: Icon, external = false })
 
 export const metadata = {
   title: 'About',
-  description: 'About Patrick Lester M. Punzalan, senior full-stack developer and builder of Fleetlyf.com.',
+  description: 'About Patrick Lester M. Punzalan, full-stack engineer, builder of Fleetlyf.com, and owner of Notelyf.com.',
 }
 
 export default function About() {
@@ -48,7 +48,7 @@ export default function About() {
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>I’m a {profile.role.toLowerCase()} working across interfaces, backend services, data, deployment, and the conversations that shape the right solution.</p>
             <p>My current role is Information Technology Officer II (Senior Full Stack Developer) at DSWD Government. I build and maintain government web applications, internal AI assistants, and intelligent data features that generate insights, summaries, and rule-based system predictions.</p>
-            <p>I built <a href={profile.fleetlyfUrl} target="_blank" rel="noreferrer" className="font-medium text-zinc-900 hover:text-zinc-950 dark:text-zinc-100 dark:hover:text-white">Fleetlyf.com</a> alongside my professional work.</p>
+            <p>I built <a href={profile.fleetlyfUrl} target="_blank" rel="noreferrer" className="font-medium text-zinc-900 hover:text-zinc-950 dark:text-zinc-100 dark:hover:text-white">Fleetlyf.com</a> and own <a href={profile.notelyfUrl} target="_blank" rel="noreferrer" className="font-medium text-zinc-900 hover:text-zinc-950 dark:text-zinc-100 dark:hover:text-white">Notelyf.com</a> alongside my professional work.</p>
             <p>Outside technical work, I read, keep active at the gym, follow new technology, and play games to unwind.</p>
             <p>{careerObjective}</p>
           </div>
@@ -63,6 +63,7 @@ export default function About() {
             <SocialLink href={profile.linkedinUrl} icon={LinkedInIcon} className="mt-4" external>Connect on LinkedIn</SocialLink>
             <SocialLink href={profile.facebookUrl} icon={FacebookIcon} className="mt-4" external>Find me on Facebook</SocialLink>
             <SocialLink href={profile.fleetlyfUrl} icon={GlobeIcon} className="mt-4" external>Visit Fleetlyf.com</SocialLink>
+            <SocialLink href={profile.notelyfUrl} icon={GlobeIcon} className="mt-4" external>Visit Notelyf.com</SocialLink>
             <SocialLink href={`mailto:${profile.email}`} icon={MailIcon} className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40">{profile.email}</SocialLink>
           </ul>
         </div>

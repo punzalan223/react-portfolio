@@ -38,13 +38,14 @@ export const profile = {
   phone: '09162097072',
   address: 'Sampaloc, Manila, Philippines',
   fleetlyfUrl: 'https://fleetlyf.com/',
+  notelyfUrl: 'https://notelyf.com/',
   githubUrl: 'https://github.com/punzalan223',
   facebookUrl: 'https://www.facebook.com/patwicku/',
   linkedinUrl: 'https://www.linkedin.com/in/patrick-lester-punzalan-077546243/',
 }
 
 export const careerObjective =
-  'I aim to contribute to an organization’s goals through practical performance in my field, applying my knowledge, technical abilities, and willingness to keep learning.'
+  'I aim to contribute to a company’s goals and activities through practical performance in my field, applying my knowledge and abilities.'
 
 export const reference = {
   name: 'Alfredo Canonizado',
@@ -103,7 +104,6 @@ export const experiences = [
     summary: 'Led end-to-end client work across backend, frontend, data, and delivery.',
     bullets: [
       'Led end-to-end development of client projects using Laravel, Flask, Vue.js/React, Livewire, and MySQL with GitHub version control.',
-      'Worked closely with clients to gather requirements, propose solutions, and deliver tailored applications.',
     ],
   },
   {
@@ -206,11 +206,15 @@ export const researchProjects = [
 ]
 
 export const skillGroups = [
-  { label: 'AI & LLM integration', items: ['OpenAI Codex', 'Claude Code', 'LLM APIs (GPT/Claude)'] },
-  { label: 'Languages', items: ['Python', 'PHP', 'JavaScript', 'C/C++', 'Assembly'] },
-  { label: 'Frameworks & CMS', items: ['Laravel', 'Filament', 'Node.js', 'Vue.js', 'React', 'Livewire', 'Fastify', 'WordPress'] },
+  { label: 'Languages', items: ['JavaScript', 'TypeScript', 'Python', 'PHP', 'SQL', 'C/C++', 'Assembly'] },
+  { label: 'Frameworks & CMS', items: ['Node.js', 'Nuxt.js', 'Vue.js', 'React', 'Fastify', 'Laravel', 'Filament', 'Livewire'] },
+  { label: 'Databases & ORM', items: ['PostgreSQL', 'MySQL', 'Prisma ORM'] },
+  { label: 'APIs & real-time updates', items: ['REST APIs', 'Server-Sent Events (SSE)'] },
+  { label: 'Cloud & DevOps', items: ['DigitalOcean', 'AWS (S3)', 'Linux/WSL', 'Nginx', 'Git', 'GitHub'] },
+  { label: 'Caching & background jobs', items: ['Redis', 'BullMQ'] },
+  { label: 'Testing & quality', items: ['Automated Testing', 'Integration Testing', 'Debugging'] },
   { label: 'Data libraries', items: ['pandas', 'NumPy', 'Matplotlib', 'OpenCV', 'SciPy', 'Seaborn'] },
-  { label: 'Cloud & DevOps', items: ['DigitalOcean', 'AWS (S3)', 'Git', 'GitHub', 'Linux/WSL', 'Application Deployment'] },
+  { label: 'AI & LLM integration', items: ['OpenAI Codex', 'Claude Code', 'LLM APIs (GPT/Claude)'] },
 ]
 
 export const techIcons = [

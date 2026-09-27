@@ -11,7 +11,7 @@ export const metadata = {
       `${profile.siteName} - Full Stack Engineer`,
   },
   description:
-    'Portfolio of Patrick Lester M. Punzalan, a senior full-stack developer building web applications, data systems, and LLM-powered workflow tools.',
+    'Portfolio of Patrick Lester M. Punzalan, a full-stack engineer building web applications, data systems, Fleetlyf, Notelyf, and LLM-powered workflow tools.',
 }
 
 export default function RootLayout({ children }) {
